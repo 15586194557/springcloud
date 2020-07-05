@@ -1,0 +1,10 @@
+#   server:
+#   port: \u56E0\u4E3A\u4F1A\u542F\u52A8\u591A\u4E2A product-data-service, \u6240\u4EE5\u7AEF\u53E3\u53F7\u7531\u7528\u6237\u81EA\u52A8\u8BBE\u7F6E\uFF0C\u63A8\u8350 8001,8002,8003
+
+spring:
+  application:
+    name: product-data-service
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
